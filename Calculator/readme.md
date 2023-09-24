@@ -1,4 +1,5 @@
-This is a project to build a simple calculator by using only HTML, CSS, and Javascript
+# Simple Calculator
+<p text align="center">This is a project to build a simple calculator by using only HTML, CSS, and Javascript</p>
 <br><br>
 ![img](Expression.PNG)
 <br><br><br>
