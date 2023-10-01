@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation
 
-Provide step-by-step instructions on how to install and set up your project. Include any commands or configuration that users need to follow. For example:
+Provide step-by-step instructions on how to install and set up your project. Include any commands or configurations that users need to follow. For example:
 
 **1. Clone this repository:** <br> 
 > git clone https://github.com/nfpranta/Industrial-Attachment.git 
@@ -12,7 +12,8 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 
 **2. Navigate to the project directory:** <br>
 
-> cd Industrial-Attachment 
+> cd Industrial-Attachment
+
 > cd Api_and_Dynamic_Form
  
 
