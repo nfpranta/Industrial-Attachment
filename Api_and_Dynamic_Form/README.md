@@ -2,23 +2,30 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Provide step-by-step instructions on how to install and set up your project. Include any commands or configuration that users need to follow. For example:
 
-## Code scaffolding
+1. Clone this repository:
+`git clone https://github.com/DhimanSelise/angular-core-topics.git`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Navigate to the project directory:
+`cd Api_and_Dynamic_Form`
 
-## Build
+3. Install Dependencies
+`npm install`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. Enjoy
+`ng serve`
 
 ## Live Demo
 
 See the live demo of the project : https://cuet-ia-23.netlify.app/
 
+## Contact
 
-## Further help
+If you have any questions or need further assistance, feel free to get in touch:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Name:** Nafis Fuad Pranta
+- **Email:** nfpranta@gmail.com
+- **Linkedin:** https://www.linkedin.com/in/nafis-fuad-pranta
