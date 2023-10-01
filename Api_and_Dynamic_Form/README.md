@@ -6,16 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Provide step-by-step instructions on how to install and set up your project. Include any commands or configuration that users need to follow. For example:
 
-1. Clone this repository: \\
+**1. Clone this repository:** <br>
 `git clone https://github.com/DhimanSelise/angular-core-topics.git`
 
-2. Navigate to the project directory: \\
+**2. Navigate to the project directory:** <br>
 `cd Api_and_Dynamic_Form`
 
-3. Install Dependencies: \\
+**3. Install Dependencies:** <br>
 `npm install`
 
-4. Enjoy: \\
+**4. Enjoy:** <br>
 `ng serve`
 
 ## Live Demo
