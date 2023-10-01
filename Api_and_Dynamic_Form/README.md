@@ -11,7 +11,7 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 <br>
 **2. Navigate to the project directory:** <br>
  ```
-cd Industrial-Attachment <br>
+cd Industrial-Attachment 
 cd Api_and_Dynamic_Form
  ```
 
