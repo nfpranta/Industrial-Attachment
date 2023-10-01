@@ -10,14 +10,25 @@ Provide step-by-step instructions on how to install and set up your project. Inc
  ``` git clone https://github.com/nfpranta/Industrial-Attachment.git ```
 <br>
 **2. Navigate to the project directory:** <br>
- ``` cd Industrial-Attachment <br>
-     cd Api_and_Dynamic_Form ```
+ ```
+cd Industrial-Attachment <br>
+cd Api_and_Dynamic_Form
+ ```
+
 <br>
+
 **3. Install Dependencies:** <br> 
- ``` npm install ```
+ ``` 
+ npm install
+```
+
 <br>
+
 **4. Enjoy:** <br> 
- ``` ng serve ```
+ ``` 
+ ng serve 
+ ```
+ 
 <br>
 ## Live Demo
 
