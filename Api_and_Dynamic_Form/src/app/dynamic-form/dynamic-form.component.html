@@ -1,0 +1,14 @@
+<p>Dynamic-Form works!</p>
+
+<form [formGroup]="dynamicForm">
+  <div formArrayName="users">
+    <div *ngFor="let user of users.controls; let i = index">
+      <div [formGroupName]="i">
+        <label>Email:</label>
+        <input formControlName="email" placeholder="Enter Email">
+        <button type="button" (click)="removeUser(i)">Remove</button>
+      </div>
+    </div>
+  </div>
+  <button type="button" (click)="addUser()">Add User</button>
+</form>

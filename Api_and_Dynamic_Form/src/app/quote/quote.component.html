@@ -1,0 +1,8 @@
+<p>quote works!</p>
+
+<div *ngFor="let quote of quotes">
+  <blockquote>
+    <p>{{ quote.sentence }}</p>
+    <footer>- {{ quote.character.name }}</footer>
+  </blockquote>
+</div>
