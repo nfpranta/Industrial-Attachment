@@ -1,8 +1,15 @@
-<p>quote works!</p>
-
-<div *ngFor="let quote of quotes">
-  <blockquote>
-    <p>{{ quote.sentence }}</p>
-    <footer>- {{ quote.character.name }}</footer>
-  </blockquote>
+<h1>Game of Thrones</h1>
+<div>
+  <label><b>Number of Quotes(1-94): </b></label>
+  <input [(ngModel)]="no">
+  <button type="button" (click)="submit(no)">Get Quotes</button>
 </div>
+<ul>
+  <div *ngFor="let quote of quotes">
+    <li>
+      <p>{{ quote.sentence }}</p>
+      <footer>- {{ quote.character.name }}</footer>
+    </li>
+  </div>
+  <p>quote works!</p>
+</ul>

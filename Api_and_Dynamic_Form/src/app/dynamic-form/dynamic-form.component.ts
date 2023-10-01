@@ -8,7 +8,6 @@ import { FormArray, FormBuilder, FormGroup } from '@angular/forms';
 })
 export class DynamicFormComponent {
   dynamicForm: FormGroup;
-
   constructor(private fb: FormBuilder) {
     this.dynamicForm = this.fb.group({
       users: this.fb.array([]),
@@ -25,6 +24,7 @@ export class DynamicFormComponent {
   removeUser(index: number) {
     this.users.removeAt(index);
   }
+  submit(index: number) {}
 
   get users() {
     return this.dynamicForm.get('users') as FormArray;

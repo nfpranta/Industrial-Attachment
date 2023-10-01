@@ -1,15 +1,25 @@
-blockquote {
-    font-style: italic;
-    margin: 0;
-    padding: 0;
-  }
-  
-  p {
-    font-size: 18px;
-  }
-  
-  footer {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
+li {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 55px 5px;
+}

@@ -1,14 +1,11 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import ThroneGamesComponent from './throne-games/throne-games.component';
-import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { QuoteComponent } from './quote/quote.component';
-
 @NgModule({
   declarations: [AppComponent, QuoteComponent, DynamicFormComponent],
   imports: [
@@ -16,6 +13,7 @@ import { QuoteComponent } from './quote/quote.component';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

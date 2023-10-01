@@ -15,14 +15,16 @@ interface Quote {
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [];
-
+  no: number = 0;
   constructor(private http: HttpClient) {}
 
-  ngOnInit() {
+  ngOnInit(): void {}
+  submit(no: number) {
     this.http
-      .get<Quote[]>('https://api.gameofthronesquotes.xyz/v1/random/10')
+      .get<Quote[]>('https://api.gameofthronesquotes.xyz/v1/random/' + this.no)
       .subscribe((data) => {
         this.quotes = data;
+        console.log(data);
       });
   }
 }
