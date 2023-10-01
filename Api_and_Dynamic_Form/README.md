@@ -6,16 +6,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Provide step-by-step instructions on how to install and set up your project. Include any commands or configuration that users need to follow. For example:
 
-**1. Clone this repository:** <br>
-`git clone https://github.com/DhimanSelise/angular-core-topics.git`
+**1. Clone this repository:** <br> <br>
+`git clone https://github.com/nfpranta/Industrial-Attachment.git`
 
 **2. Navigate to the project directory:** <br>
+<br>
+`cd Industrial-Attachment` <br>
 `cd Api_and_Dynamic_Form`
 
-**3. Install Dependencies:** <br>
+**3. Install Dependencies:** <br> <br>
 `npm install`
 
-**4. Enjoy:** <br>
+**4. Enjoy:** <br> <br>
 `ng serve`
 
 ## Live Demo
