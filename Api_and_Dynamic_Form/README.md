@@ -9,6 +9,7 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 **1. Clone this repository:** <br> 
 > git clone https://github.com/nfpranta/Industrial-Attachment.git 
 <br>
+
 **2. Navigate to the project directory:** <br>
 
 > cd Industrial-Attachment 
