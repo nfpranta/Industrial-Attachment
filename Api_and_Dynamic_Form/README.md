@@ -30,9 +30,10 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 > ng serve 
  
 <br>
+
 ## Live Demo
 
-See the live demo of the project : https://cuet-ia-23.netlify.app/
+See the live demo of the project: https://cuet-ia-23.netlify.app/
 
 ## Contact
 
