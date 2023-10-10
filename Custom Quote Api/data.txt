@@ -1,0 +1,54 @@
+{
+  "sentence": "All this horror that has come to my family, it's all because I couldn't love a motherless child.",
+  "character": "Catelyn Stark"
+}
+
+{
+  "sentence": "The night is dark and full of terrors."
+  "character": "Melisandre"
+}
+
+{
+  "sentence": "I'm the King, I get what I want. I never loved my brothers. Sad thing for a man to admit, but it's true. You were the brother I chose.",
+  "character": "Robert Baratheon"
+}
+
+{
+  "sentence": "No need to seize the last word, Lord Baelish. I'll assume it was something clever.",
+  "character": "Sansa Stark"
+}
+
+{
+  "sentence": "A Lannister always pays his debts.",
+  "character": "Tyrion Lannister"
+}
+
+{
+  "sentence": "The only way to keep your people loyal is to make certain they fear you more than they do the enemy.",
+  "character": "Cersei Lannister"
+}
+
+{
+  "sentence": "Gingers are beautiful. We've been kissed by fire.",
+  "character": "Tormund"
+}
+
+{
+  "sentence": "Fighting bravely for a losing cause is admirable. Fighting for a winning cause is far more rewarding.",
+  "character": "Jaime Lannister"
+}
+
+{
+  "sentence": "I have a tender spot in my heart for cripples, bastards and broken things.",
+  "character": "Tyrion Lannister"
+}
+
+{
+  "sentence": "Love is more powerful than reason. We all know that.",
+  "character": "Tyrion Lannister"
+}
+
+{
+  "sentence": "By what right does the wolf judge the lion?",
+  "character": "Jaime Lannister"
+}

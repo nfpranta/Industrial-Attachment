@@ -1,0 +1,17 @@
+{
+  "name": "selise-1",
+  "version": "1.0.1",
+  "description": "This is a demo api to learn express",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Nafis Fuad Pranta",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0"
+  }
+}
