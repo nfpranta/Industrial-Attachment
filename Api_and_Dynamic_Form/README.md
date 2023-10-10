@@ -2,26 +2,44 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Provide step-by-step instructions on how to install and set up your project. Include any commands or configurations that users need to follow. For example:
 
-## Code scaffolding
+**1. Clone this repository:** <br> 
+> git clone https://github.com/nfpranta/Industrial-Attachment.git 
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**2. Navigate to the project directory:** <br>
 
-## Build
+> cd Industrial-Attachment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+> cd Api_and_Dynamic_Form
+ 
 
-## Running unit tests
+<br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**3. Install Dependencies:** <br> 
+ 
+> npm install
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<br>
 
-## Further help
+**4. Enjoy:** <br> 
+  
+> ng serve 
+ 
+<br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Live Demo
+
+See the live demo of the project: https://api-and-dynamic-form.netlify.app/
+
+## Contact
+
+If you have any questions or need further assistance, feel free to get in touch:
+
+- **Name:** Nafis Fuad Pranta
+- **Email:** nfpranta@gmail.com
+- **Linkedin:** https://www.linkedin.com/in/nafis-fuad-pranta
