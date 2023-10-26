@@ -1,0 +1,60 @@
+{
+  "productList": [
+    {
+      "productName": "Asus",
+      "productShortCode": "as-lap",
+      "category": "Fruits",
+      "price": 4100,
+      "count": 5,
+      "inCart": 0,
+      "description": "good in condition",
+      "imageUrl": "https://m.media-amazon.com/images/I/51UHoxzInpL._AC_SY200_.jpg",
+      "isBestAchived": "no",
+      "createdDate": "2022-11-07T18:00:00.000Z",
+      "origin": "India",
+      "id": 1
+    },
+    {
+      "productName": "Asus",
+      "productShortCode": "as-lap",
+      "category": "Fruits",
+      "price": 4100,
+      "count": 5,
+      "inCart": 0,
+      "description": "good in condition",
+      "imageUrl": "https://m.media-amazon.com/images/I/51UHoxzInpL._AC_SY200_.jpg",
+      "isBestAchived": "no",
+      "createdDate": "2022-11-07T18:00:00.000Z",
+      "origin": "India",
+      "id": 2
+    },
+    {
+      "productName": "Asus",
+      "productShortCode": "as-lap",
+      "category": "Fruits",
+      "price": 4100,
+      "count": 5,
+      "inCart": 0,
+      "description": "good in condition",
+      "imageUrl": "https://m.media-amazon.com/images/I/51UHoxzInpL._AC_SY200_.jpg",
+      "isBestAchived": "no",
+      "createdDate": "2022-11-07T18:00:00.000Z",
+      "origin": "India",
+      "id": 3
+    },
+    {
+      "productName": "Asus",
+      "productShortCode": "as-lap",
+      "category": "Fruits",
+      "price": 4100,
+      "count": 5,
+      "inCart": 0,
+      "description": "good in condition",
+      "imageUrl": "https://m.media-amazon.com/images/I/51UHoxzInpL._AC_SY200_.jpg",
+      "isBestAchived": "no",
+      "createdDate": "2022-11-07T18:00:00.000Z",
+      "origin": "India",
+      "id": 4
+    }
+  ]
+}

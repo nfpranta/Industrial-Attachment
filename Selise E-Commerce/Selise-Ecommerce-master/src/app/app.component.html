@@ -1,0 +1,28 @@
+<!-- <app-table [apiObjForService]="apiForTable" [controlObjForService]="controlForTable"></app-table> -->
+<mat-toolbar>
+  <span
+    ><img routerLink="dashboard" style="cursor: pointer;"
+      src="https://selisegroup.com/wp-content/uploads/2020/11/SELISE-DIgital-Platforms-.png"
+      alt=""
+  /></span>
+  <div class="container">
+    <a class="item" routerLink="/dashboard">Dashboard</a>
+    <a class="item" routerLink="/product">Product</a>
+    <a class="item" routerLink="mycart">My Cart</a>
+  </div>
+  <div class="example-button-container">
+    <button
+      (click)="cartClicked()"
+      mat-fab
+      color="basic"
+      aria-label="Example icon button with a delete icon"
+    >
+      <mat-icon
+        ><span class="material-icons green-color"
+          >shopping_cart
+        </span></mat-icon
+      >
+    </button>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>

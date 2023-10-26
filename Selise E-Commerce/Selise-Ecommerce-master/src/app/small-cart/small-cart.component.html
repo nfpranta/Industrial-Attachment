@@ -1,0 +1,15 @@
+<mat-card *ngIf="cartData.inCart" class="example-card">
+  <mat-card-title-group>
+    <mat-card-title>{{ cartData.productName }}</mat-card-title>
+    <mat-card-subtitle style="color: green"
+      >Price--{{ cartData.price | currency }}</mat-card-subtitle
+    >
+    <mat-card-subtitle style="color: blue"
+      >Count--{{ cartData.inCart }}</mat-card-subtitle
+    >
+    <img mat-card-sm-image src="{{ cartData.imageUrl }}" />
+  </mat-card-title-group>
+  <mat-card-content>
+    <h3>sub-total={{ cartData.inCart * cartData.price }}</h3>
+  </mat-card-content>
+</mat-card>

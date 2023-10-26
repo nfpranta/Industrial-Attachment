@@ -1,0 +1,10 @@
+<!-- <mat-progress-bar *ngIf="progressBar" mode="indeterminate"></mat-progress-bar> -->
+<div style="display: flex; flex-direction: column; align-items: center">
+  <button style="width: 200px; height: 50px; border-radius: 20px" class="up-btn" mat-raised-button color="primary"
+    routerLink="createNew">
+    New Product
+  </button>
+</div>
+<app-table [stopProgressBarInTable]="stopProgressBar" [apiObjForService]="apiForTable"
+  [controlObjForService]="controlForTable"></app-table>
+<router-outlet></router-outlet>

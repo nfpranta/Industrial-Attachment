@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: rgb(255, 251, 242);
+}

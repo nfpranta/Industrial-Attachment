@@ -1,0 +1,8 @@
+<mat-progress-bar *ngIf="progressBar" mode="indeterminate"></mat-progress-bar>
+<div class="container">
+  <app-cart
+    *ngFor="let eachCartData of myCartList"
+    [cartData]="eachCartData" 
+    [fromMyCart]="fromMyCart"
+  ></app-cart>
+</div>

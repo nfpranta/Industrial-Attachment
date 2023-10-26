@@ -1,0 +1,7 @@
+<div>
+  <app-small-cart
+    *ngFor="let cartData of allProducts"
+    [cartData]="cartData"
+  ></app-small-cart>
+  <h2>Total-payable = {{ totalPayable | currency }}</h2>
+</div>

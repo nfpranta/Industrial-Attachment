@@ -1,0 +1,28 @@
+.example-card {
+  margin-top: 10px;
+  margin-left: 30px;
+  min-width: 300px;
+  max-width: 300px;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.example-header-image {
+  background-image: url("https://selisegroup.com/wp-content/uploads/2020/11/SELISE-DIgital-Platforms-.png");
+  background-size: cover;
+}
+
+.mat-card-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.mat-raised-button {
+  display: inline-block;
+  align-self: flex-end;
+}
+
+img {
+  height: 280px;
+  width: 250px;
+}

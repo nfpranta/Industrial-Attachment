@@ -1,0 +1,37 @@
+<mat-card *ngIf="!fromMyCart || cartData.inCart" class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ cartData.productName }}</mat-card-title>
+    <mat-card-subtitle style="color: green">price: {{ cartData.price | currency }}</mat-card-subtitle>
+    <mat-card-subtitle><span style="color: blue;">In Stock--> </span><span style="color: red;">{{ cartData.count
+        }}</span></mat-card-subtitle>
+  </mat-card-header>
+  <div style="display: flex; justify-content: center">
+    <img style="border-radius: 10px" mat-card-image src="{{ cartData.imageUrl }}" alt="Photo of a Shiba Inu" />
+  </div>
+  <mat-card-content>
+    <p>
+      {{ cartData.description }}
+    </p>
+    <p *ngIf="!isDashboardRoute()">
+      Total Price: {{ cartData.price*cartData.inCart }}
+
+    </p>
+    <p>
+      Quantity: {{ cartData.inCart }}
+
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button *ngIf="!cartData.inCart && !fromMyCart" mat-raised-button color="primary" (click)="addToCart()"
+      [disabled]="!cartData.count">
+      Add to Cart
+    </button>
+    <button *ngIf="cartData.inCart" mat-raised-button color="basic" (click)="incCart()" [disabled]="!cartData.count">
+      +1
+    </button>
+    <button *ngIf="cartData.inCart" mat-raised-button color="basic" (click)="decCart()" [disabled]="!cartData.inCart">
+      -1
+    </button>
+  </mat-card-actions>
+</mat-card>
