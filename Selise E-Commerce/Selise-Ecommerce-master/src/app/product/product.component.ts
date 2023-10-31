@@ -10,11 +10,11 @@ import { CrudInterface } from '../reusable-table/crud-interface';
 })
 export class ProductComponent implements OnInit {
   apiForTable: CrudInterface = {
-    create: 'http://localhost:8080/api/add-Product',
-    read: 'http://localhost:8080/api/',
-    update: 'http://localhost:8080/api/update-Product/',
-    delete: 'http://localhost:8080/api/delete-Product/',
-    readInChunk: 'http://localhost:8080/api/chunk/',
+    create: 'https://selise-nfpranta-backend.onrender.com/api/add-Product',
+    read: 'https://selise-nfpranta-backend.onrender.com/api/',
+    update: 'https://selise-nfpranta-backend.onrender.com/api/update-Product/',
+    delete: 'https://selise-nfpranta-backend.onrender.com/api/delete-Product/',
+    readInChunk: 'https://selise-nfpranta-backend.onrender.com/api/chunk/',
   };
   controlForTable: ControlInterface = {
     pageSize: [10, 15, 20],

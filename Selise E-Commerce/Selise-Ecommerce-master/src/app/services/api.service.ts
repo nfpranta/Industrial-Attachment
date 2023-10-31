@@ -8,23 +8,28 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   postProduct(data: any) {
-    return this.http.post<any>('http://localhost:8080/api/add-Product', data);
+    return this.http.post<any>(
+      'https://selise-nfpranta-backend.onrender.com/api/add-Product',
+      data
+    );
   }
 
   getProduct() {
-    return this.http.get<any>('http://localhost:8080/api');
+    return this.http.get<any>(
+      'https://selise-nfpranta-backend.onrender.com/api'
+    );
   }
 
   putProduct(data: any, id: number) {
     return this.http.put<any>(
-      'http://localhost:8080/api/update-Product/' + id,
+      'https://selise-nfpranta-backend.onrender.com/api/update-Product/' + id,
       data
     );
   }
 
   deleteProduct(id: number) {
     return this.http.delete<any>(
-      'http://localhost:8080/api/delete-Product/' + id
+      'https://selise-nfpranta-backend.onrender.com/api/delete-Product/' + id
     );
   }
 }

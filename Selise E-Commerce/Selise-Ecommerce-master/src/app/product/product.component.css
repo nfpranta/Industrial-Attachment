@@ -1,17 +1,16 @@
 table {
-    width: 100%;
-  }
-  
-  .mat-form-field {
-    font-size: 14px;
-    width: 100%;
-  }
-  
-  .container {
-    max-width: 80%;
-    margin: 0 auto;
-  }
+  width: 100%;
+}
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
 
-  .up-btn {
-   float: right;
-  }
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.up-btn {
+  float: right;
+}

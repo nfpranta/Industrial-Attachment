@@ -21,7 +21,10 @@
   display: inline-block;
   align-self: flex-end;
 }
-
+mat-card-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+}
 img {
   height: 280px;
   width: 250px;

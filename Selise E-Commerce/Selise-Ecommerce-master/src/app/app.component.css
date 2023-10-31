@@ -8,11 +8,14 @@ img {
   justify-content: center;
 }
 .item {
-    margin-left: 30px;
-    text-decoration: none;
-    color: rgb(97, 120, 131);
-    font-weight: 200;
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
 }
 .green-color {
-  color:green;
+  color: green;
+}
+mat-toolbar {
+  background-color: rgb(225, 180, 96);
 }

@@ -2,8 +2,9 @@
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
     <mat-card-title>{{ cartData.productName }}</mat-card-title>
-    <mat-card-subtitle style="color: green">price: {{ cartData.price | currency }}</mat-card-subtitle>
-    <mat-card-subtitle><span style="color: blue;">In Stock--> </span><span style="color: red;">{{ cartData.count
+    <mat-card-subtitle style="color: rgb(2, 18, 2)">Price: {{ cartData.price | currency }}</mat-card-subtitle>
+    <mat-card-subtitle><span style="color: rgb(11, 61, 75);">In Stock--> </span><span style="color: red;">{{
+        cartData.count
         }}</span></mat-card-subtitle>
   </mat-card-header>
   <div style="display: flex; justify-content: center">
