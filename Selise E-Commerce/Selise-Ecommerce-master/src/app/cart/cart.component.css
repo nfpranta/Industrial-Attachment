@@ -7,11 +7,6 @@
   min-height: 500px;
 }
 
-.example-header-image {
-  background-image: url("https://selisegroup.com/wp-content/uploads/2020/11/SELISE-DIgital-Platforms-.png");
-  background-size: cover;
-}
-
 .mat-card-actions {
   display: flex;
   justify-content: center;
